@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar{
+    width: 100%;
+   height: 85%;
+   background-color: white;
+     
+}
+
+.Logo{
+    width: 350px;
+    cursor: pointer;
+    padding: 15px 50px;
+}
+
+.navbar1{
+    width: 100%;
+    margin: auto;
+    background-color: #EB0A1E;
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+
+.border {
+    border: 1.5px solid transparent;
+    border-radius: 25px 10px;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+
+
+.navbar1 ul li{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    padding: 15px 25px;
+}
+
+.navbar1 ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.content{
+    width: 85%;
+}
+/* YARIS IMAGE */
+.YarisImage{
+    width: 100%;
+    
+}
+
+/* 4 seperate boxes */
+.navboxes{
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    background: #f9f9f9;
+}
+
+
+.box{
+ border: 2px solid #EB0A1E;
+ padding: 20px 15px;
+ background-color: #EB0A1E;
+}
+
+.box1 {
+    border: 2px solid #EB0A1E;
+    padding: 20px;
+    background-color: #EB0A1E;
+    display: inline-block; /* Set display to inline-block to make the box fit the content */
+  }
+  
+  .line1 {
+    display: block; /* Display the first line as a block element (separate line) */
+    font-size: 18px; /* Optional: Adjust font size for the first line */
+  }
+  
+  .line2 {
+    display: block; /* Display the second line as a block element (separate line) */
+  }
+  
+
+.navboxes ul li{
+ display: inline-block;
+    list-style: none;
+    
+}
+
+.navboxes ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.content{
+    width: 85%;
+    margin: auto;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* SMALL SECTION OF EXPLORE VEHICLE */
+
+
+
+.content ul li{
+    list-style: none;
+}
+
+.car ul li{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    padding: 15px 25px;
+}
+
+.car{
+    
+width: 100%;
+margin: auto;
+display: flex;
+justify-content: space-evenly;
+}
+
+.car ul li a{
+    text-decoration: none;
+   
+}
+
+
+/* Define the initial style for the image */
+.car ul li img {
+    width: 100%; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    transition: transform 0.3s ease-in-out; /* Apply smooth transition on hover effect */
+  }
+  
+  /* Apply the hover effect */
+  .car ul li:hover img {
+    transform: scale(1.1); /* Increase the image size on hover */
+    /* You can also add other effects like a shadow, border, etc. */
+    /* Example:
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border: 2px solid #ff9900;
+    */
+  }
+/* SECTION WHERE THERE IS A IMG WITH TEXT, BEFORE FOOTER */
+  .container{
+    background-color: #f9f9f9;
+  }
+
+  h1{
+    color: #EB0A1E;
+margin: 15px;
+}
+  .text{
+    text-align: center;
+   }
+
+.img-txt{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}
+   .fortuner{
+     width: 550px; 
+    margin: 0px 15px; 
+    vertical-align: middle;
+
+}
+
+.txt {
+    letter-spacing: 0.4px;
+    line-height: 1.5;
+   
+   
+}
+  
+.buttons{
+    /* display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left: 50%; */
+ 
+ width: 100%;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 50px;
+    display: flex;
+justify-content: center;
+align-items: center;
+ 
+ 
+}
+
+.b1{
+   border: 2px solid #EB0A1E;
+    padding: 20px ; 
+    margin: 20px;
+    border-radius: 10px;
+   background-color: #EB0A1E;  
+   transition: background-color 0.3s, color 0.3s;
+} 
+
+.b1 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.b1:hover{
+    background-color: #f9f9f9;
+}
+
+.b1:hover a{
+    
+    color: #EB0A1E;
+}
+
+/* SEPERATE PARAGRAPH */
+.txt1{
+    margin: 100px;
+}
+
+.bg{
+    background-color: #f9f9f9;
+}
+
+/* FOOTER SECTION */
+.foots{
+    background-color: #282727;
+    margin-top: 50px; /* Adjust as needed */
+    margin-bottom: 50px; /* Adjust as needed */
+}
+.foot{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+}
+
+h4{
+    margin: 30px;
+    color: #999999;
+}
+
+p{
+    color: #999999;
+}
+
+.help ul li{
+    list-style: none;
+    color: #c5c3c3;
+    margin: 10px;
+}
+
+.b2{
+    border: 2px solid #EB0A1E;
+    padding: 10px ; 
+    margin: 20px;
+    border-radius: 10px;
+   background-color: #EB0A1E;  
+   transition: background-color 0.3s, color 0.3s;
+   width: 70%;
+}
+
+.b2 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.b2:hover{
+    background-color: #f9f9f9;
+}
+
+.b2:hover a{
+    
+    color: #EB0A1E;
+}
+
+.email{
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.but{
+    border: 2px solid #EB0A1E;
+    padding: 10px ; 
+    margin: 20px;
+    border-radius: 10px;
+   background-color: #EB0A1E;  
+   transition: background-color 0.3s, color 0.3s;
+   width: 20%;
+}
+
+.but a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.but:hover{
+    background-color: #f9f9f9;
+}
+
+.but:hover a{
+    
+    color: #EB0A1E;
+}
+
+.aces a{
+    text-decoration: none;
+color: #EB0A1E;
+}
+
+/* Last footer */
+.last{
+    width: 100%;
+    
+    background-color: #2a2a2a;
+    
+}
+
+p{
+    margin-left: 10%;
+    padding: 10px 10px;
+    font-size: small;
+}
+
+/* SCROLL BUTTON */
+
+#scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: #f9f9f9;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 5%;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #555;
+}
+
+
+
+
+
+
+
